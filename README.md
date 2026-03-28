@@ -1,7 +1,7 @@
 # Ai-in-Healthcare
-AI project:Pneumonia Detection
-Team project: Dhruv Agarwal
-              Devraj
-              Deekshitha Kanjarla
-              M.Dharshini
-              Keertika
+AI project : X-Ray Pneumonia Detection.
+Team project: Dhruv Agarwal,
+              Deekshitha Kanjarla,
+              Devraj Singh,
+              M.Dharshini,
+              Keertika.
