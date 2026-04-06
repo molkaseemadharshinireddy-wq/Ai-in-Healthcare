@@ -54,16 +54,6 @@ Deployment
 Flask app loads trained model
 User uploads X-ray image
 Model predicts class and displays result
-🚀 How to Run the Project
-🔧 1. Clone the Repository
-git clone https://github.com/Divyam6969/Pneumonia-Detection-using-FastAI.git
-cd Pneumonia-Detection-using-FastAI
-📦 2. Install Dependencies
-pip install -r requirements.txt
-▶️ 3. Run the Application
-python app.py
-🌐 4. Open in Browser
-http://127.0.0.1:5000/
 📊 Results
 Achieved reliable classification performance using transfer learning
 Model successfully distinguishes between normal and pneumonia cases
