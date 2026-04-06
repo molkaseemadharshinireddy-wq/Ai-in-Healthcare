@@ -1,26 +1,26 @@
-🩺 Pneumonia Detection using FastAI
+🩺 AI in Healthcare: Pneumonia Detection System
 📌 Overview
 
-This project aims to detect Pneumonia from Chest X-ray images using Deep Learning techniques. It utilizes Transfer Learning with a pre-trained ResNet50 model implemented through the FastAI library.
+This project focuses on applying Artificial Intelligence in Healthcare to detect Pneumonia from Chest X-ray images. It uses Deep Learning and Computer Vision techniques to automatically classify medical images into different categories.
 
-The trained model is deployed using a Flask web application, enabling users to upload chest X-ray images and receive real-time predictions.
+A pre-trained Convolutional Neural Network (ResNet50) is used with Transfer Learning, enabling efficient and accurate predictions. The model is integrated into a Flask-based web application, allowing users to upload X-ray images and receive real-time diagnostic predictions.
 
 🎯 Objectives
-Develop a robust deep learning model for medical image classification
-Leverage transfer learning to improve accuracy and reduce training time
+Develop an AI-based system for pneumonia detection
+Apply transfer learning to improve performance
 Classify chest X-ray images into:
 Normal
 Viral Pneumonia
 Bacterial Pneumonia
-Deploy the model as an interactive web application
+Build a user-friendly web interface for predictions
 🧠 Model Details
-Architecture: ResNet50 (Pre-trained Convolutional Neural Network)
+Architecture: ResNet50 (Pre-trained CNN)
 Framework: FastAI (built on PyTorch)
 Technique: Transfer Learning & Fine-tuning
 Task: Multi-class Image Classification
 🗂️ Dataset
-Source: Chest X-ray dataset (Kaggle)
-Classes:
+Chest X-ray image dataset
+Categories:
 NORMAL
 PNEUMONIA (Viral & Bacterial)
 ⚙️ Tech Stack
@@ -36,51 +36,48 @@ Flask
 Jupyter Notebook
 🔄 Project Workflow
 Data Collection
-Dataset obtained from Kaggle
+Gather chest X-ray images
 Data Preprocessing
 Image resizing
 Normalization
-Dataset splitting (train/validation)
+Train-validation split
 Model Training
 Load pre-trained ResNet50
 Apply transfer learning
-Fine-tune the model using FastAI
+Fine-tune model
 Evaluation
-Accuracy measurement
-Confusion matrix analysis
+Measure accuracy
+Analyze confusion matrix
 Model Export
 Save trained model as export.pkl
 Deployment
 Flask app loads trained model
 User uploads X-ray image
-Model predicts class and displays result
+Model predicts result
+🚀 How to Run the Project
+🔧 1. Clone the Repository
+git clone https://github.com/molkaseemadharshinireddy-wq/Ai-in-Healthcare.git
+cd Ai-in-Healthcare
+📦 2. Install Dependencies
+pip install -r requirements.txt
+▶️ 3. Run the Application
+python app.py
+🌐 4. Open in Browser
+http://127.0.0.1:5000/
 📊 Results
-Achieved reliable classification performance using transfer learning
-Model successfully distinguishes between normal and pneumonia cases
-Confusion matrix used for evaluating prediction performance
+Achieved effective classification using transfer learning
+Model distinguishes between normal and pneumonia cases
+Provides quick predictions through a web interface
 🧪 Sample Output
-Upload a chest X-ray image
+Upload an X-ray image
 Model predicts:
 Normal
 Viral Pneumonia
 Bacterial Pneumonia
-📸 Screenshots
-
-(Add UI screenshots and prediction outputs here for better visualization)
-
-⚠️ Limitations
-Limited dataset size may affect generalization
-No explainability techniques (e.g., Grad-CAM) implemented
-Not validated for real-world clinical use
-🔮 Future Improvements
-Integrate explainable AI methods (Grad-CAM)
-Train on larger and more diverse datasets
-Improve accuracy using advanced architectures
-Deploy on cloud platforms for scalability
 🧾 Conclusion
 
-This project demonstrates the effective use of Deep Learning and Transfer Learning in the healthcare domain for detecting pneumonia from chest X-ray images. By leveraging a pre-trained ResNet50 model with FastAI, the system achieves efficient and accurate image classification without requiring extensive computational resources.
+This project demonstrates the potential of Artificial Intelligence in healthcare by developing an automated system for pneumonia detection using chest X-ray images. By leveraging transfer learning with a ResNet50 model, the system achieves efficient and reliable performance without extensive computational requirements.
 
-The integration of the trained model into a Flask-based web application highlights the practical applicability of machine learning solutions in real-world scenarios. Despite certain limitations such as dataset size and lack of explainability, the project provides a strong foundation for further enhancements and deployment in medical diagnostics.
+The integration of the trained model into a Flask web application showcases its real-world usability, enabling users to interact with the system easily. Although improvements can be made in terms of dataset size and explainability, the project successfully presents an end-to-end AI solution — from data preprocessing and model training to deployment.
 
-Overall, this project showcases an end-to-end pipeline — from data preprocessing and model training to deployment — making it a valuable contribution in the field of AI-driven healthcare solutions.
+Overall, this project highlights how deep learning can assist in early detection and diagnosis, contributing to advancements in medical technology.
